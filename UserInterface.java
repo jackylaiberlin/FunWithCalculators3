@@ -82,7 +82,7 @@ public class UserInterface implements ActionListener {
 		addButton(buttonPanel, "0");
 
 		buttonPanel.add(new JLabel(" "));
-		buttonPanel.add(new JLabel(" "));
+		addButton(buttonPanel, "DIF");
 
 		addButton(buttonPanel, "/");
 		addButton(buttonPanel, "=");
@@ -138,6 +138,9 @@ public class UserInterface implements ActionListener {
 			break;
 		case "WD":
 			calc.showWeekDay();
+			break;
+		case "DIF":
+			calc.difference();
 			break;
 		default:
 			calc.addToString(command);
