@@ -83,12 +83,12 @@ public class UserInterface
 		addButton(buttonPanel, "0");
 		addButton(buttonPanel, "+");
 		addButton(buttonPanel, "-");
-
 		addButton(buttonPanel, "=");
 		
 		addButton(buttonPanel, "/");
-		addButton(buttonPanel, "(");
-		addButton(buttonPanel, ")");
+		addButton(buttonPanel, "wd");
+		buttonPanel.add(new JLabel(" "));
+		buttonPanel.add(new JLabel(" "));
 
 		
 
