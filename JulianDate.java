@@ -90,4 +90,11 @@ public class JulianDate {
 		int month = (h / s + m)% n + 1;
 		return (e / p) - y + (n + m - month) / n;
 	}
+	public String checkWeekDay() {
+		String[] weekDays = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+		int weekDay = (date % 7);
+		
+		
+			return weekDays[weekDay];
+	}
 }
